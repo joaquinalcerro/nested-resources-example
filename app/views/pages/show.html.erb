@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @page.name %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @page.position %>
+</p>
+
+<p>
+  <strong>Visible:</strong>
+  <%= @page.visible %>
+</p>
+
+<p>
+  <strong>Permalink:</strong>
+  <%= @page.permalink %>
+</p>
+
+<%= link_to 'Edit', edit_page_path(@page) %> |
+<%= link_to 'Back', subject_pages_path(@page.subject.id) %>
