@@ -15,3 +15,17 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore secrets.yml
+/config/secrets.yml
+
+# Other files to ignore
+/bin/*
+/tmp/*
+/vendor/*
+/.gitignore
+/config.ru
+/Gemfile
+/Gemfile.lock
+/Rakefile
+/README.rdoc
